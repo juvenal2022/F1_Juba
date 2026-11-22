@@ -56,7 +56,7 @@ function gerarHTML(pilotos) {
                       htmlContent += `
                       <tr>
                         <td class="px-5">${piloto.position}</td>
-                        <td>${piloto.driverName}</td>
+                        <td>${piloto.driverName.slice(0, -3)}</td>
                         <td>${piloto.nationality}</td>
                         <td>${piloto.team}</td>
                         <td class="rounded-end text-end pe-5">${piloto.points}</td>
